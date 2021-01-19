@@ -1,0 +1,69 @@
+C:\Apache\db-derby-10.14.2.0-bin\bin>
+C:\Apache\db-derby-10.14.2.0-bin\bin>echo %CLASSPATH%
+C:\Apache\DB-DER~1.0-B\lib\derby.jar;C:\Apache\DB-DER~1.0-B\lib\derbytools.jar;C:\Apache\DB-DER~1.0-B/lib/derbyoptionaltools.jar;C:\Apache\DB-DER~1.0-B\lib\derby.jar;C:\Apache\DB-DER~1.0-B\lib\derbytools.jar;C:\Apache\DB-DER~1.0-B/lib/derbyoptionaltools.jar;C:\Apache\DB-DER~1.0-B\lib\derby.jar;C:\Apache\DB-DER~1.0-B\lib\derbytools.jar;C:\Apache\DB-DER~1.0-B/lib/derbyoptionaltools.jar;C:\Apache\db-derby-10.14.2.0-bin\lib\derby.jar;C:\Apache\db-derby-10.14.2.0-bin\lib\derbytools.jar;C:\Apache\db-derby-10.14.2.0-bin\lib\derbyoptionaltools.jar;C:\Apache\db-derby-10.14.2.0-bin\lib\derbyshared.jar;.
+
+C:\Apache\db-derby-10.14.2.0-bin\bin>ava org.apache.derby.tools.ij
+'ava' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Apache\db-derby-10.14.2.0-bin\bin>ava org.apache.derby.tools.ij
+
+C:\Apache\db-derby-10.14.2.0-bin\bin>java org.apache.derby.tools.ij
+ij version 10.14
+ij> connect 'jdbc:derby:MyDbTest;create=true';
+ij> exit
+>
+C:\Apache\db-derby-10.14.2.0-bin\bin>ava org.apache.derby.tools.ij
+'ava' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Apache\db-derby-10.14.2.0-bin\bin>java org.apache.derby.tools.sysinfo
+------------------ Java Information ------------------
+Java Version:    1.8.0_265
+Java Vendor:     AdoptOpenJDK
+Java home:       C:\Program Files\AdoptOpenJDK\jdk-8.0.265.01-hotspot\jre
+Java classpath:  C:\Apache\DB-DER~1.0-B\lib\derby.jar;C:\Apache\DB-DER~1.0-B\lib\derbytools.jar;C:\Apache\DB-DER~1.0-B/lib/derbyoptionaltools.jar;C:\Apache\DB-DER~1.0-B\lib\derby.jar;C:\Apache\DB-DER~1.0-B\lib\derbytools.jar;C:\Apache\DB-DER~1.0-B/lib/derbyoptionaltools.jar;C:\Apache\DB-DER~1.0-B\lib\derby.jar;C:\Apache\DB-DER~1.0-B\lib\derbytools.jar;C:\Apache\DB-DER~1.0-B/lib/derbyoptionaltools.jar;C:\Apache\db-derby-10.14.2.0-bin\lib\derby.jar;C:\Apache\db-derby-10.14.2.0-bin\lib\derbytools.jar;C:\Apache\db-derby-10.14.2.0-bin\lib\derbyoptionaltools.jar;C:\Apache\db-derby-10.14.2.0-bin\lib\derbyshared.jar;.
+OS name:         Windows 10
+OS architecture: amd64
+OS version:      10.0
+Java user name:  sethv
+Java user home:  C:\Users\sethv
+Java user dir:   C:\Apache\db-derby-10.14.2.0-bin\bin
+java.specification.name: Java Platform API Specification
+java.specification.version: 1.8
+java.runtime.version: 1.8.0_265-b01
+--------- Derby Information --------
+[C:\Apache\db-derby-10.14.2.0-bin\lib\derby.jar] 10.14.2.0 - (1828579)
+[C:\Apache\db-derby-10.14.2.0-bin\lib\derbytools.jar] 10.14.2.0 - (1828579)
+[C:\Apache\db-derby-10.14.2.0-bin\lib\derbyoptionaltools.jar] 10.14.2.0 - (1828579)
+------------------------------------------------------
+----------------- Locale Information -----------------
+Current Locale :  [English/United States [en_US]]
+Found support for locale: [cs]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [de_DE]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [es]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [fr]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [hu]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [it]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [ja_JP]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [ko_KR]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [pl]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [pt_BR]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [ru]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [zh_CN]
+         version: 10.14.2.0 - (1828579)
+Found support for locale: [zh_TW]
+         version: 10.14.2.0 - (1828579)
+------------------------------------------------------
+------------------------------------------------------
