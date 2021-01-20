@@ -29,7 +29,7 @@ public class Main extends JFrame {
     //select count(*) from derbyDB
     private int runSimpleCountQuery(String q) {
         try {
-            Connection c = DriverManager.getConnection("jdbc:derby:MyDbTest");
+            Connection c = DriverManager.getConnection("jdbc:derby:pollster");
             System.out.println("Printing Connection c ="+ c);
             Statement s = c.createStatement();
             ResultSet rs = s.executeQuery(q);
@@ -43,6 +43,7 @@ public class Main extends JFrame {
             System.out.println(e);
             System.err.println("  Error Code: " + e.getErrorCode());
             System.err.println("  Message:    " + e.getMessage());
+            System.err.println("  Message:    " + e.getNextException());
 
             return 0;
         }
@@ -61,7 +62,7 @@ public class Main extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Just clicked menu item 1");
-                int gilmo = runSimpleCountQuery("SELECT COUNT(*) FROM derbyDB");
+                int gilmo = runSimpleCountQuery("SELECT COUNT(*) FROM cis2019");
                 System.out.println("I found " + gilmo + " rows in the table.");
                 mainPanel.setText("I found " + gilmo + " rows in the table.");
             }
